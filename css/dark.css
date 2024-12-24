@@ -1,0 +1,99 @@
+:root {
+    --main-color: #a86072;
+    --background-color: #202020;
+    --text-color: #fff;
+    --gray-color: #313030;
+    --light-gray-color:#c4c4c4;
+    --mid-gray-color:  #3e3b3b;
+    --light-color: #ffffff;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    overflow: hidden;
+}
+
+input {
+    background-color: var(--mid-gray-color) !important;
+    color: var(--light-color) !important;
+}
+
+::placeholder {
+    color: var(--light-gray-color) !important;
+    opacity: 1;
+  }
+  
+::-ms-input-placeholder {
+color: var(--light-gray-color) !important;
+}
+
+
+.product-body {
+    background-color: var(--mid-gray-color);
+}
+
+.product-del-price{
+    color: var(--light-gray-color) !important;
+}
+
+.navbar {
+    background-color: var(--mid-gray-color) !important;
+}
+
+.nav-item .small{
+    color: var(--light-gray-color) !important;
+}
+
+.nav-item .icon {
+    filter: brightness(0) saturate(100%) invert(89%) sepia(0%) saturate(0%) hue-rotate(214deg) brightness(86%) contrast(90%);
+}
+
+.nav-item:hover .icon, .nav-item.active .icon , .icon-back , .search-icon{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.icon-theam-wrapper {
+    background-color: var(--mid-gray-color);
+}
+
+.lang-toggler {
+    color: var(--light-color);
+    background-color: var(--mid-gray-color);
+}
+
+.dropdown-menu {
+    background-color: var(--mid-gray-color);   
+}
+
+.dropdown-menu a {
+    color: var(--light-color);
+}
+
+
+.image-background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 67%;
+    right: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: all;
+    z-index: 1; 
+}
+
+.lang-search-wrapper , .logo-wrapper img{
+    z-index: 1000;
+}
+
+.logo-wrapper img{
+    position: relative;
+}
+
+.page-title {
+    color: var(--light-color);
+}
+

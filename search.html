@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en"  dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rtl.css">
+
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-4 col-md-4 col-sm-12">
+               <div class="p-2">
+                    <div class="py-3">
+                        <div class="title-wrapper d-flex justify-content-between align-items-center">
+                            <button class="btn-back border-0 bg-transparent">
+                                <i class="icon icon-back"></i>
+                            </button>
+                            <h5 class="page-title fw-bold">Search</h5>
+                            <div style="width: 55px;"></div>
+                        </div>
+                        
+                        <div class="border-top my-2 sparator"></div>
+
+                        <div class="search-wrapper">
+                            <div class="input-group">
+                                <input type="text" class="form-control search-input" placeholder="Search products...">
+                                <i class="icon search-icon"></i>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+            
+            <div class="scrollable-div" id="productsContainer">
+                <div class="row products-container">
+                    <div class="col-6 product-item">
+                        <div class="card shadow-sm m-1">
+                            <img src="images/pr1.png" class="card-img-top" alt="Product">
+                            <div class="card-body product-body">
+                                <a class="product-name">Product Name</a>
+                                <div class="d-flex justify-content-start gap-3 align-items-center">
+                                    <span class="product-price">$29.99</span>
+                                    <span class="product-del-price">$29.99</span>
+                                </div>
+                                <button class="py-2 mt-2 btn-add-cart rounded" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                                    <i class="icon icon-add-to-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-6 product-item">
+                        <div class="card shadow-sm m-1">
+                            <img src="images/pr1.png" class="card-img-top" alt="Product">
+                            <div class="card-body product-body">
+                                <a class="product-name">Product Name</a>
+                                <div class="d-flex justify-content-start gap-3 align-items-center">
+                                    <span class="product-price">$29.99</span>
+                                    <span class="product-del-price">$29.99</span>
+                                </div>
+                                <button class="py-2 mt-2 btn-add-cart rounded" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                                    <i class="icon icon-add-to-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 product-item">
+                        <div class="card shadow-sm m-1">
+                            <img src="images/pr1.png" class="card-img-top" alt="Product">
+                            <div class="card-body product-body">
+                                <a class="product-name">Product Name</a>
+                                <div class="d-flex justify-content-start gap-3 align-items-center">
+                                    <span class="product-price">$29.99</span>
+                                    <span class="product-del-price">$29.99</span>
+                                </div>
+                                <button class="py-2 mt-2 btn-add-cart rounded" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                                    <i class="icon icon-add-to-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 product-item">
+                        <div class="card shadow-sm m-1">
+                            <img src="images/pr1.png" class="card-img-top" alt="Product">
+                            <div class="card-body product-body">
+                                <a class="product-name">Product Name</a>
+                                <div class="d-flex justify-content-start gap-3 align-items-center">
+                                    <span class="product-price">$29.99</span>
+                                    <span class="product-del-price">$29.99</span>
+                                </div>
+                                <button class="py-2 mt-2 btn-add-cart rounded" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                                    <i class="icon icon-add-to-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 product-item">
+                        <div class="card shadow-sm m-1">
+                            <img src="images/pr1.png" class="card-img-top" alt="Product">
+                            <div class="card-body product-body">
+                                <a class="product-name">Product Name</a>
+                                <div class="d-flex justify-content-start gap-3 align-items-center">
+                                    <span class="product-price">$29.99</span>
+                                    <span class="product-del-price">$29.99</span>
+                                </div>
+                                <button class="py-2 mt-2 btn-add-cart rounded" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
+                                    <i class="icon icon-add-to-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                                            
+            </div>
+            <nav class="navbar sticky-bottom bg-light px-3 py-2 shadow-top bottom-nav">
+                <div class="container-fluid">
+                    <a href="#" class="nav-item d-flex flex-column align-items-center text-decoration-none">
+                        <i class="icon icon-home"></i>
+                        <span class="small">Home</span>
+                    </a>
+                    <a href="#" class="nav-item active d-flex flex-column align-items-center text-decoration-none">
+                        <i class="icon nav-icon-search"></i>
+                        <span class="small">Search</span>
+                    </a>
+                    <a href="#" class="nav-item d-flex flex-column align-items-center text-decoration-none">
+                        <i class="icon icon-cart"></i>
+                        <span class="small">Cart</span>
+                        <div class="position-relative cart-counter-wrapper">
+                            <small class="badge rounded-pill bg-danger position-absolute" style="">3</small>
+                        </div>
+                    </a>
+                    <a href="#" class="nav-item d-flex flex-column align-items-center text-decoration-none">
+                        <i class="icon icon-profile"></i>
+                        <span class="small">Profile</span>
+                    </a>
+                    <a href="#" class="nav-item d-flex flex-column align-items-center text-decoration-none d-md-none">
+                        <i class="icon icon-settings"></i>
+                        <span class="small">Settings</span>
+                    </a>
+                </div>
+                </nav>
+        </div>
+        <div class="col-md-8 p-0 col-md-8 d-none d-md-block ">
+            <div class="large-content">
+                <div class="lang-search-wrapper position-absolute top-0 d-flex justify-content-end align-items-center gap-3 p-3">
+                    <div class="dropdown">
+                        <div class="icon-theam-wrapper d-flex justify-content-center align-items-center">
+                            <i class="icon icon-light" id="lightBtn"></i>
+                            <i class="icon icon-dark" id="darkBtn"></i>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="lang-toggler dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="images/en.svg" alt="English" style="width: 20px; height: 15px; margin-right: 5px;">
+                        </button>
+                        
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="#">
+                                <img src="images/en.svg" alt="Arabic" style="width: 20px; height: 15px; margin-right: 5px;">
+                                English
+                            </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                <img src="images/ar.svg" alt="Arabic" style="width: 20px; height: 15px; margin-right: 5px;">
+                                Arabic
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="image-background">
+                    <div class="logo-wrapper ">
+                        <div>
+                            <img src="images/logo.svg" alt="Company Logo">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
